@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F8D2A5E51A8461EC0006F927 /* DNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D2A5E41A8461EC0006F927 /* DNAppDelegate.m */; };
+		F8D2A6151A84620D0006F927 /* DeviceNinja-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F8D2A5E91A84620D0006F927 /* DeviceNinja-Info.plist */; };
+		F8D2A6161A84620D0006F927 /* DNAuthenticationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D2A5EC1A84620D0006F927 /* DNAuthenticationViewController.m */; };
+		F8D2A6171A84620D0006F927 /* DNChatroom.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D2A5EE1A84620D0006F927 /* DNChatroom.m */; };
+		F8D2A6181A84620D0006F927 /* DNChatroomMessagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D2A5F01A84620D0006F927 /* DNChatroomMessagesViewController.m */; };
+		F8D2A6191A84620D0006F927 /* DNChatroomsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D2A5F21A84620D0006F927 /* DNChatroomsViewController.m */; };
+		F8D2A61A1A84620D0006F927 /* DNChatService_NSURLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D2A5F41A84620D0006F927 /* DNChatService_NSURLConnection.m */; };
+		F8D2A61B1A84620D0006F927 /* DNChatService_NSURLConnectionRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D2A5F61A84620D0006F927 /* DNChatService_NSURLConnectionRequest.m */; };
+		F8D2A61C1A84620D0006F927 /* DNChatService_NSURLSession.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D2A5F81A84620D0006F927 /* DNChatService_NSURLSession.m */; };
+		F8D2A61D1A84620D0006F927 /* DNChatService_NSURLSessionRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D2A5FA1A84620D0006F927 /* DNChatService_NSURLSessionRequest.m */; };
+		F8D2A61E1A84620D0006F927 /* DNChatService.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D2A5FD1A84620D0006F927 /* DNChatService.m */; };
+		F8D2A61F1A84620D0006F927 /* DNChatter.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D2A5FF1A84620D0006F927 /* DNChatter.m */; };
+		F8D2A6201A84620D0006F927 /* DNCreateChatroomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D2A6011A84620D0006F927 /* DNCreateChatroomViewController.m */; };
+		F8D2A6211A84620D0006F927 /* DNMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D2A6031A84620D0006F927 /* DNMessage.m */; };
+		F8D2A6221A84620D0006F927 /* DNMessageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D2A6051A84620D0006F927 /* DNMessageTableViewCell.m */; };
+		F8D2A6231A84620D0006F927 /* DNStatusMessageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D2A6081A84620D0006F927 /* DNStatusMessageTableViewCell.m */; };
+		F8D2A6241A84620D0006F927 /* DNWaitView.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D2A60A1A84620D0006F927 /* DNWaitView.m */; };
+		F8D2A6251A84620D0006F927 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F8D2A60C1A84620D0006F927 /* InfoPlist.strings */; };
+		F8D2A6261A84620D0006F927 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8D2A60E1A84620D0006F927 /* Images.xcassets */; };
+		F8D2A6271A84620D0006F927 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D2A60F1A84620D0006F927 /* main.m */; };
+		F8D2A6281A84620D0006F927 /* NSArray+Enumerable.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D2A6111A84620D0006F927 /* NSArray+Enumerable.m */; };
+		F8D2A6291A84620D0006F927 /* NSHTTPURLResponse+ChatExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D2A6131A84620D0006F927 /* NSHTTPURLResponse+ChatExtensions.m */; };
+		F8D2A62F1A84642A0006F927 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F8D2A60C1A84620D0006F927 /* InfoPlist.strings */; };
+		F8D2A6311A8464E20006F927 /* DeviceNinjaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D2A6301A8464E20006F927 /* DeviceNinjaTests.m */; };
+		F8D2A6341A8468830006F927 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8D2A62A1A8463950006F927 /* Main.storyboard */; };
+		FAA3C79718C41362004B91A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA3C79618C41362004B91A1 /* Foundation.framework */; };
+		FAA3C79918C41362004B91A1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA3C79818C41362004B91A1 /* CoreGraphics.framework */; };
+		FAA3C79B18C41362004B91A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA3C79A18C41362004B91A1 /* UIKit.framework */; };
+		FAA3C7B718C41362004B91A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA3C79618C41362004B91A1 /* Foundation.framework */; };
+		FAA3C7B818C41362004B91A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA3C79A18C41362004B91A1 /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAA3C7B918C41362004B91A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAA3C78B18C41362004B91A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAA3C79218C41362004B91A1;
+			remoteInfo = ChatCave;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F8D2A5E31A8461EC0006F927 /* DNAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DNAppDelegate.h; path = DeviceNinja/DNAppDelegate.h; sourceTree = SOURCE_ROOT; };
+		F8D2A5E41A8461EC0006F927 /* DNAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DNAppDelegate.m; path = DeviceNinja/DNAppDelegate.m; sourceTree = SOURCE_ROOT; };
+		F8D2A5E91A84620D0006F927 /* DeviceNinja-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "DeviceNinja-Info.plist"; path = "DeviceNinja/DeviceNinja-Info.plist"; sourceTree = SOURCE_ROOT; };
+		F8D2A5EA1A84620D0006F927 /* DeviceNinja-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "DeviceNinja-Prefix.pch"; path = "DeviceNinja/DeviceNinja-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		F8D2A5EB1A84620D0006F927 /* DNAuthenticationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DNAuthenticationViewController.h; path = DeviceNinja/DNAuthenticationViewController.h; sourceTree = SOURCE_ROOT; };
+		F8D2A5EC1A84620D0006F927 /* DNAuthenticationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DNAuthenticationViewController.m; path = DeviceNinja/DNAuthenticationViewController.m; sourceTree = SOURCE_ROOT; };
+		F8D2A5ED1A84620D0006F927 /* DNChatroom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DNChatroom.h; path = DeviceNinja/DNChatroom.h; sourceTree = SOURCE_ROOT; };
+		F8D2A5EE1A84620D0006F927 /* DNChatroom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DNChatroom.m; path = DeviceNinja/DNChatroom.m; sourceTree = SOURCE_ROOT; };
+		F8D2A5EF1A84620D0006F927 /* DNChatroomMessagesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DNChatroomMessagesViewController.h; path = DeviceNinja/DNChatroomMessagesViewController.h; sourceTree = SOURCE_ROOT; };
+		F8D2A5F01A84620D0006F927 /* DNChatroomMessagesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DNChatroomMessagesViewController.m; path = DeviceNinja/DNChatroomMessagesViewController.m; sourceTree = SOURCE_ROOT; };
+		F8D2A5F11A84620D0006F927 /* DNChatroomsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DNChatroomsViewController.h; path = DeviceNinja/DNChatroomsViewController.h; sourceTree = SOURCE_ROOT; };
+		F8D2A5F21A84620D0006F927 /* DNChatroomsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DNChatroomsViewController.m; path = DeviceNinja/DNChatroomsViewController.m; sourceTree = SOURCE_ROOT; };
+		F8D2A5F31A84620D0006F927 /* DNChatService_NSURLConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DNChatService_NSURLConnection.h; path = DeviceNinja/DNChatService_NSURLConnection.h; sourceTree = SOURCE_ROOT; };
+		F8D2A5F41A84620D0006F927 /* DNChatService_NSURLConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DNChatService_NSURLConnection.m; path = DeviceNinja/DNChatService_NSURLConnection.m; sourceTree = SOURCE_ROOT; };
+		F8D2A5F51A84620D0006F927 /* DNChatService_NSURLConnectionRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DNChatService_NSURLConnectionRequest.h; path = DeviceNinja/DNChatService_NSURLConnectionRequest.h; sourceTree = SOURCE_ROOT; };
+		F8D2A5F61A84620D0006F927 /* DNChatService_NSURLConnectionRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DNChatService_NSURLConnectionRequest.m; path = DeviceNinja/DNChatService_NSURLConnectionRequest.m; sourceTree = SOURCE_ROOT; };
+		F8D2A5F71A84620D0006F927 /* DNChatService_NSURLSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DNChatService_NSURLSession.h; path = DeviceNinja/DNChatService_NSURLSession.h; sourceTree = SOURCE_ROOT; };
+		F8D2A5F81A84620D0006F927 /* DNChatService_NSURLSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DNChatService_NSURLSession.m; path = DeviceNinja/DNChatService_NSURLSession.m; sourceTree = SOURCE_ROOT; };
+		F8D2A5F91A84620D0006F927 /* DNChatService_NSURLSessionRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DNChatService_NSURLSessionRequest.h; path = DeviceNinja/DNChatService_NSURLSessionRequest.h; sourceTree = SOURCE_ROOT; };
+		F8D2A5FA1A84620D0006F927 /* DNChatService_NSURLSessionRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DNChatService_NSURLSessionRequest.m; path = DeviceNinja/DNChatService_NSURLSessionRequest.m; sourceTree = SOURCE_ROOT; };
+		F8D2A5FB1A84620D0006F927 /* DNChatService_SubclassMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DNChatService_SubclassMethods.h; path = DeviceNinja/DNChatService_SubclassMethods.h; sourceTree = SOURCE_ROOT; };
+		F8D2A5FC1A84620D0006F927 /* DNChatService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DNChatService.h; path = DeviceNinja/DNChatService.h; sourceTree = SOURCE_ROOT; };
+		F8D2A5FD1A84620D0006F927 /* DNChatService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DNChatService.m; path = DeviceNinja/DNChatService.m; sourceTree = SOURCE_ROOT; };
+		F8D2A5FE1A84620D0006F927 /* DNChatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DNChatter.h; path = DeviceNinja/DNChatter.h; sourceTree = SOURCE_ROOT; };
+		F8D2A5FF1A84620D0006F927 /* DNChatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DNChatter.m; path = DeviceNinja/DNChatter.m; sourceTree = SOURCE_ROOT; };
+		F8D2A6001A84620D0006F927 /* DNCreateChatroomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DNCreateChatroomViewController.h; path = DeviceNinja/DNCreateChatroomViewController.h; sourceTree = SOURCE_ROOT; };
+		F8D2A6011A84620D0006F927 /* DNCreateChatroomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DNCreateChatroomViewController.m; path = DeviceNinja/DNCreateChatroomViewController.m; sourceTree = SOURCE_ROOT; };
+		F8D2A6021A84620D0006F927 /* DNMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DNMessage.h; path = DeviceNinja/DNMessage.h; sourceTree = SOURCE_ROOT; };
+		F8D2A6031A84620D0006F927 /* DNMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DNMessage.m; path = DeviceNinja/DNMessage.m; sourceTree = SOURCE_ROOT; };
+		F8D2A6041A84620D0006F927 /* DNMessageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DNMessageTableViewCell.h; path = DeviceNinja/DNMessageTableViewCell.h; sourceTree = SOURCE_ROOT; };
+		F8D2A6051A84620D0006F927 /* DNMessageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DNMessageTableViewCell.m; path = DeviceNinja/DNMessageTableViewCell.m; sourceTree = SOURCE_ROOT; };
+		F8D2A6061A84620D0006F927 /* DNSerializable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DNSerializable.h; path = DeviceNinja/DNSerializable.h; sourceTree = SOURCE_ROOT; };
+		F8D2A6071A84620D0006F927 /* DNStatusMessageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DNStatusMessageTableViewCell.h; path = DeviceNinja/DNStatusMessageTableViewCell.h; sourceTree = SOURCE_ROOT; };
+		F8D2A6081A84620D0006F927 /* DNStatusMessageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DNStatusMessageTableViewCell.m; path = DeviceNinja/DNStatusMessageTableViewCell.m; sourceTree = SOURCE_ROOT; };
+		F8D2A6091A84620D0006F927 /* DNWaitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DNWaitView.h; path = DeviceNinja/DNWaitView.h; sourceTree = SOURCE_ROOT; };
+		F8D2A60A1A84620D0006F927 /* DNWaitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DNWaitView.m; path = DeviceNinja/DNWaitView.m; sourceTree = SOURCE_ROOT; };
+		F8D2A60D1A84620D0006F927 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		F8D2A60E1A84620D0006F927 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = DeviceNinja/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		F8D2A60F1A84620D0006F927 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = DeviceNinja/main.m; sourceTree = SOURCE_ROOT; };
+		F8D2A6101A84620D0006F927 /* NSArray+Enumerable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+Enumerable.h"; path = "DeviceNinja/NSArray+Enumerable.h"; sourceTree = SOURCE_ROOT; };
+		F8D2A6111A84620D0006F927 /* NSArray+Enumerable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Enumerable.m"; path = "DeviceNinja/NSArray+Enumerable.m"; sourceTree = SOURCE_ROOT; };
+		F8D2A6121A84620D0006F927 /* NSHTTPURLResponse+ChatExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSHTTPURLResponse+ChatExtensions.h"; path = "DeviceNinja/NSHTTPURLResponse+ChatExtensions.h"; sourceTree = SOURCE_ROOT; };
+		F8D2A6131A84620D0006F927 /* NSHTTPURLResponse+ChatExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSHTTPURLResponse+ChatExtensions.m"; path = "DeviceNinja/NSHTTPURLResponse+ChatExtensions.m"; sourceTree = SOURCE_ROOT; };
+		F8D2A62B1A8463950006F927 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DeviceNinja/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		F8D2A6301A8464E20006F927 /* DeviceNinjaTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DeviceNinjaTests.m; path = DeviceNinjaTests/DeviceNinjaTests.m; sourceTree = SOURCE_ROOT; };
+		FAA3C79318C41362004B91A1 /* DeviceNinja.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeviceNinja.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA3C79618C41362004B91A1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FAA3C79818C41362004B91A1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FAA3C79A18C41362004B91A1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FAA3C7B418C41362004B91A1 /* DeviceNinjaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeviceNinjaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAA3C79018C41362004B91A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA3C79918C41362004B91A1 /* CoreGraphics.framework in Frameworks */,
+				FAA3C79B18C41362004B91A1 /* UIKit.framework in Frameworks */,
+				FAA3C79718C41362004B91A1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA3C7B118C41362004B91A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA3C7B818C41362004B91A1 /* UIKit.framework in Frameworks */,
+				FAA3C7B718C41362004B91A1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8D2A60B1A84620D0006F927 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				F8D2A60C1A84620D0006F927 /* InfoPlist.strings */,
+			);
+			name = en.lproj;
+			path = DeviceNinja/en.lproj;
+			sourceTree = SOURCE_ROOT;
+		};
+		FA39449F18C6774600175423 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				F8D2A6101A84620D0006F927 /* NSArray+Enumerable.h */,
+				F8D2A6111A84620D0006F927 /* NSArray+Enumerable.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		FA5D1BF018DF549B00525D16 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		FA5DCE9118C57F3800CA3CD1 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F8D2A6001A84620D0006F927 /* DNCreateChatroomViewController.h */,
+				F8D2A6011A84620D0006F927 /* DNCreateChatroomViewController.m */,
+				F8D2A5F11A84620D0006F927 /* DNChatroomsViewController.h */,
+				F8D2A5F21A84620D0006F927 /* DNChatroomsViewController.m */,
+				F8D2A5EF1A84620D0006F927 /* DNChatroomMessagesViewController.h */,
+				F8D2A5F01A84620D0006F927 /* DNChatroomMessagesViewController.m */,
+				F8D2A5EB1A84620D0006F927 /* DNAuthenticationViewController.h */,
+				F8D2A5EC1A84620D0006F927 /* DNAuthenticationViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		FA5DCE9218C5812600CA3CD1 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F8D2A5FC1A84620D0006F927 /* DNChatService.h */,
+				F8D2A5FD1A84620D0006F927 /* DNChatService.m */,
+				F8D2A5F31A84620D0006F927 /* DNChatService_NSURLConnection.h */,
+				F8D2A5F41A84620D0006F927 /* DNChatService_NSURLConnection.m */,
+				F8D2A5F51A84620D0006F927 /* DNChatService_NSURLConnectionRequest.h */,
+				F8D2A5F61A84620D0006F927 /* DNChatService_NSURLConnectionRequest.m */,
+				F8D2A5F71A84620D0006F927 /* DNChatService_NSURLSession.h */,
+				F8D2A5F81A84620D0006F927 /* DNChatService_NSURLSession.m */,
+				F8D2A5F91A84620D0006F927 /* DNChatService_NSURLSessionRequest.h */,
+				F8D2A5FA1A84620D0006F927 /* DNChatService_NSURLSessionRequest.m */,
+				F8D2A5FB1A84620D0006F927 /* DNChatService_SubclassMethods.h */,
+				F8D2A6121A84620D0006F927 /* NSHTTPURLResponse+ChatExtensions.h */,
+				F8D2A6131A84620D0006F927 /* NSHTTPURLResponse+ChatExtensions.m */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		FA5DCE9318C5813600CA3CD1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F8D2A5ED1A84620D0006F927 /* DNChatroom.h */,
+				F8D2A5EE1A84620D0006F927 /* DNChatroom.m */,
+				F8D2A6021A84620D0006F927 /* DNMessage.h */,
+				F8D2A6031A84620D0006F927 /* DNMessage.m */,
+				F8D2A5FE1A84620D0006F927 /* DNChatter.h */,
+				F8D2A5FF1A84620D0006F927 /* DNChatter.m */,
+				F8D2A6061A84620D0006F927 /* DNSerializable.h */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		FAA3C78A18C41362004B91A1 = {
+			isa = PBXGroup;
+			children = (
+				FAA3C79C18C41362004B91A1 /* DeviceNinja */,
+				FAA3C7BB18C41362004B91A1 /* DeviceNinjaTests */,
+				FA5D1BF018DF549B00525D16 /* Images */,
+				FAA3C79518C41362004B91A1 /* Frameworks */,
+				FAA3C79418C41362004B91A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAA3C79418C41362004B91A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAA3C79318C41362004B91A1 /* DeviceNinja.app */,
+				FAA3C7B418C41362004B91A1 /* DeviceNinjaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+			usesTabs = 0;
+		};
+		FAA3C79518C41362004B91A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAA3C79618C41362004B91A1 /* Foundation.framework */,
+				FAA3C79818C41362004B91A1 /* CoreGraphics.framework */,
+				FAA3C79A18C41362004B91A1 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAA3C79C18C41362004B91A1 /* DeviceNinja */ = {
+			isa = PBXGroup;
+			children = (
+				F8D2A5E31A8461EC0006F927 /* DNAppDelegate.h */,
+				F8D2A5E41A8461EC0006F927 /* DNAppDelegate.m */,
+				F8D2A62A1A8463950006F927 /* Main.storyboard */,
+				FA39449F18C6774600175423 /* Categories */,
+				FA5DCE9318C5813600CA3CD1 /* Models */,
+				FA5DCE9218C5812600CA3CD1 /* Services */,
+				FA5DCE9118C57F3800CA3CD1 /* View Controllers */,
+				FAE398A418D9D93E00D74C5B /* Views */,
+				F8D2A60E1A84620D0006F927 /* Images.xcassets */,
+			);
+			name = DeviceNinja;
+			path = ChatCave;
+			sourceTree = "<group>";
+		};
+		FAA3C7BB18C41362004B91A1 /* DeviceNinjaTests */ = {
+			isa = PBXGroup;
+			children = (
+				F8D2A6301A8464E20006F927 /* DeviceNinjaTests.m */,
+				FAA3C7BC18C41362004B91A1 /* Supporting Files */,
+			);
+			name = DeviceNinjaTests;
+			path = ChatCaveTests;
+			sourceTree = "<group>";
+		};
+		FAA3C7BC18C41362004B91A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8D2A60F1A84620D0006F927 /* main.m */,
+				F8D2A5E91A84620D0006F927 /* DeviceNinja-Info.plist */,
+				F8D2A60B1A84620D0006F927 /* en.lproj */,
+				F8D2A5EA1A84620D0006F927 /* DeviceNinja-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAE398A418D9D93E00D74C5B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F8D2A6071A84620D0006F927 /* DNStatusMessageTableViewCell.h */,
+				F8D2A6081A84620D0006F927 /* DNStatusMessageTableViewCell.m */,
+				F8D2A6041A84620D0006F927 /* DNMessageTableViewCell.h */,
+				F8D2A6051A84620D0006F927 /* DNMessageTableViewCell.m */,
+				F8D2A6091A84620D0006F927 /* DNWaitView.h */,
+				F8D2A60A1A84620D0006F927 /* DNWaitView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAA3C79218C41362004B91A1 /* DeviceNinja */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA3C7C518C41362004B91A1 /* Build configuration list for PBXNativeTarget "DeviceNinja" */;
+			buildPhases = (
+				FAA3C78F18C41362004B91A1 /* Sources */,
+				FAA3C79018C41362004B91A1 /* Frameworks */,
+				FAA3C79118C41362004B91A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeviceNinja;
+			productName = ChatCave;
+			productReference = FAA3C79318C41362004B91A1 /* DeviceNinja.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAA3C7B318C41362004B91A1 /* DeviceNinjaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA3C7C818C41362004B91A1 /* Build configuration list for PBXNativeTarget "DeviceNinjaTests" */;
+			buildPhases = (
+				FAA3C7B018C41362004B91A1 /* Sources */,
+				FAA3C7B118C41362004B91A1 /* Frameworks */,
+				FAA3C7B218C41362004B91A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAA3C7BA18C41362004B91A1 /* PBXTargetDependency */,
+			);
+			name = DeviceNinjaTests;
+			productName = ChatCaveTests;
+			productReference = FAA3C7B418C41362004B91A1 /* DeviceNinjaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAA3C78B18C41362004B91A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DN;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = DeviceNinja;
+				TargetAttributes = {
+					FAA3C7B318C41362004B91A1 = {
+						TestTargetID = FAA3C79218C41362004B91A1;
+					};
+				};
+			};
+			buildConfigurationList = FAA3C78E18C41362004B91A1 /* Build configuration list for PBXProject "DeviceNinja" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAA3C78A18C41362004B91A1;
+			productRefGroup = FAA3C79418C41362004B91A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAA3C79218C41362004B91A1 /* DeviceNinja */,
+				FAA3C7B318C41362004B91A1 /* DeviceNinjaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAA3C79118C41362004B91A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8D2A6251A84620D0006F927 /* InfoPlist.strings in Resources */,
+				F8D2A6261A84620D0006F927 /* Images.xcassets in Resources */,
+				F8D2A6151A84620D0006F927 /* DeviceNinja-Info.plist in Resources */,
+				F8D2A6341A8468830006F927 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA3C7B218C41362004B91A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8D2A62F1A84642A0006F927 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAA3C78F18C41362004B91A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8D2A61A1A84620D0006F927 /* DNChatService_NSURLConnection.m in Sources */,
+				F8D2A6281A84620D0006F927 /* NSArray+Enumerable.m in Sources */,
+				F8D2A6271A84620D0006F927 /* main.m in Sources */,
+				F8D2A61B1A84620D0006F927 /* DNChatService_NSURLConnectionRequest.m in Sources */,
+				F8D2A6311A8464E20006F927 /* DeviceNinjaTests.m in Sources */,
+				F8D2A6201A84620D0006F927 /* DNCreateChatroomViewController.m in Sources */,
+				F8D2A61D1A84620D0006F927 /* DNChatService_NSURLSessionRequest.m in Sources */,
+				F8D2A6211A84620D0006F927 /* DNMessage.m in Sources */,
+				F8D2A6221A84620D0006F927 /* DNMessageTableViewCell.m in Sources */,
+				F8D2A61F1A84620D0006F927 /* DNChatter.m in Sources */,
+				F8D2A6191A84620D0006F927 /* DNChatroomsViewController.m in Sources */,
+				F8D2A6291A84620D0006F927 /* NSHTTPURLResponse+ChatExtensions.m in Sources */,
+				F8D2A6161A84620D0006F927 /* DNAuthenticationViewController.m in Sources */,
+				F8D2A61E1A84620D0006F927 /* DNChatService.m in Sources */,
+				F8D2A6241A84620D0006F927 /* DNWaitView.m in Sources */,
+				F8D2A6171A84620D0006F927 /* DNChatroom.m in Sources */,
+				F8D2A6231A84620D0006F927 /* DNStatusMessageTableViewCell.m in Sources */,
+				F8D2A6181A84620D0006F927 /* DNChatroomMessagesViewController.m in Sources */,
+				F8D2A5E51A8461EC0006F927 /* DNAppDelegate.m in Sources */,
+				F8D2A61C1A84620D0006F927 /* DNChatService_NSURLSession.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA3C7B018C41362004B91A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAA3C7BA18C41362004B91A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAA3C79218C41362004B91A1 /* DeviceNinja */;
+			targetProxy = FAA3C7B918C41362004B91A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F8D2A60C1A84620D0006F927 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8D2A60D1A84620D0006F927 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F8D2A62A1A8463950006F927 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8D2A62B1A8463950006F927 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAA3C7C318C41362004B91A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FAA3C7C418C41362004B91A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAA3C7C618C41362004B91A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChatCave/DeviceNinja-Prefix.pch";
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				INFOPLIST_FILE = "ChatCave/DeviceNinja-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = DeviceNinja;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FAA3C7C718C41362004B91A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChatCave/DeviceNinja-Prefix.pch";
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				INFOPLIST_FILE = "ChatCave/DeviceNinja-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = DeviceNinja;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FAA3C7C918C41362004B91A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ChatCave.app/ChatCave";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChatCave/ChatCave-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ChatCaveTests/DeviceNinjaTests-Info.plist";
+				PRODUCT_NAME = DeviceNinjaTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FAA3C7CA18C41362004B91A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ChatCave.app/ChatCave";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChatCave/ChatCave-Prefix.pch";
+				INFOPLIST_FILE = "ChatCaveTests/DeviceNinjaTests-Info.plist";
+				PRODUCT_NAME = DeviceNinjaTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAA3C78E18C41362004B91A1 /* Build configuration list for PBXProject "DeviceNinja" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA3C7C318C41362004B91A1 /* Debug */,
+				FAA3C7C418C41362004B91A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAA3C7C518C41362004B91A1 /* Build configuration list for PBXNativeTarget "DeviceNinja" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA3C7C618C41362004B91A1 /* Debug */,
+				FAA3C7C718C41362004B91A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAA3C7C818C41362004B91A1 /* Build configuration list for PBXNativeTarget "DeviceNinjaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA3C7C918C41362004B91A1 /* Debug */,
+				FAA3C7CA18C41362004B91A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAA3C78B18C41362004B91A1 /* Project object */;
+}
